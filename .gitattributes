@@ -19,6 +19,8 @@
 
 # Declare files that will always have LF
 *.sh text eol=lf
+bin/hbase text eol=lf
+bin/hbase-jruby text eol=lf
 
 # Declare files that will always have CRLF line endings on checkout.
 *.sln text eol=crlf
